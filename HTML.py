@@ -37,7 +37,7 @@ html_table += """
 """
 
 # HTMLファイルに出力
-with open("volcanoes_table.html", "w", encoding="utf-8") as file:
+with open("index.html", "w", encoding="utf-8") as file:
     file.write(html_table)
 
 print("HTMLテーブルが作成されました。")
